@@ -152,6 +152,9 @@ h6 {
   .masthead {
     height: 100vh;
   }
+  .masthead1 {
+    height: 100vh;
+  }
 
   .masthead h1 {
     font-size: 5.5rem;
@@ -303,6 +306,7 @@ a:hover {
   grid-area: menu;
   border-radius: 25px;
   margin-top: auto;
+  margin-left: 1rem;
 }
 
 .btn-primary {
@@ -581,7 +585,7 @@ a:hover:after {
 @media only screen and (max-width: 1024px) {
   p,
   div {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   a {
