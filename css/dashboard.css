@@ -4,6 +4,10 @@ html {
   height: 100%;
 }
 
+img {
+  float: left;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -112,6 +116,19 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.masthead3 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-bottom: 8rem;
+  background-color: #fec23ebd !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .masthead1 {
   min-height: 30rem;
   position: relative;
@@ -402,7 +419,7 @@ a:hover {
 }
 
 .aboutMeHeaderStyles {
-  grid-area: header;
+  grid-area: main;
   color: #fff;
   font-style: oblique;
   font-weight: 200;
@@ -411,6 +428,17 @@ a:hover {
   padding: 1em;
   font-family: adobe-caslon-pro;
   text-decoration: underline overline;
+}
+.aboutMeHeaderStyles1 {
+  grid-area: main;
+  color: #062b64;
+  font-style: oblique;
+  font-weight: 200;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+  font-family: adobe-caslon-pro;
+  text-decoration: underline;
 }
 .importTextStyles {
   text-decoration: underline overline;
@@ -444,7 +472,7 @@ a:hover {
   grid-area: main;
   border-radius: 25px;
   src: url(../img/photo2.jpg);
-  margin-top: auto;
+  margin: 1.5rem;
 }
 
 .headShotstyles1 {
@@ -472,11 +500,35 @@ a:hover {
 .blockquote p {
   display: inline;
 }
+
+.blockquote3 {
+  grid-area: header;
+  background: #2d5188 !important;
+  border-left: 10px solid #ccc;
+  margin: 1.5em;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  text-align: center;
+  font-size: xx-large;
+}
+.blockquote3:before {
+  color: #fec23e;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+.blockquote3 p {
+  display: inline;
+}
 .aboutMeStyles {
-  grid-area: main;
+  align-items: center;
+  column-count: 1;
   font-weight: 200;
   background-color: #2d5188;
-  padding: 2em;
+  padding: 0.5rem;
+  width: 500px;
+  height: fit-content;
   border-radius: 25px;
   margin: 2em;
   font-family: adobe-caslon-pro;
@@ -502,7 +554,7 @@ div {
   }
   p,
   div {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -669,4 +721,16 @@ a:hover:after {
     height: 2px;
     font-size: 20px;
   }
+}
+
+/* SLIDESHOW STYLES */
+.slideshow-container {
+  grid-area: main;
+  font-weight: 200;
+  background-color: transparent;
+  border-radius: 25px;
+  margin: 2em;
+  font-family: adobe-caslon-pro;
+  text-align: center;
+  color: #fff;
 }
