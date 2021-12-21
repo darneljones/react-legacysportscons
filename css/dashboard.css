@@ -178,6 +178,19 @@ h6 {
   }
 }
 
+@media (min-width: 768px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead1 {
+    height: 100vh;
+  }
+
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
