@@ -1,7 +1,7 @@
 import React from "react";
-import "./LoadingScreen.css";
+import "./Loader.css";
 
-export default function LoadingScreen() {
+export default function Loader() {
   return (
     <div className="loader-container">
       <div className="loader"></div>

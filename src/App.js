@@ -1,6 +1,6 @@
 import "./index.css";
 import LoginScreen from "./components/LoginScreen/LoginScreen";
-import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
+import Loader from "./components/Loader/Loader";
 import React, { useState, useEffect } from "react";
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
           <LoginScreen />
         </div>
       ) : (
-        <LoadingScreen />
+        <Loader />
       )}
     </>
   );
