@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactlegacysportscon-dev-215545-authRole",
+      "UnauthRoleArn": "arn:aws:iam::837347153991:role/amplify-reactlegacysportscon-dev-215545-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::837347153991:role/amplify-reactlegacysportscon-dev-215545-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-reactlegacysportscon-dev-215545-deployment",
+      "UnauthRoleName": "amplify-reactlegacysportscon-dev-215545-unauthRole",
+      "StackName": "amplify-reactlegacysportscon-dev-215545",
+      "StackId": "arn:aws:cloudformation:us-east-1:837347153991:stack/amplify-reactlegacysportscon-dev-215545/1893ea60-f4f3-11ec-b5f5-1243751daa69",
+      "AmplifyAppId": "d103eftze5kjlk"
+    },
+    "categories": {
+      "auth": {
+        "reactlegacysportscon1679409d": {}
+      }
+    }
+  }
+}
